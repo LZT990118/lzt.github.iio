@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+</head>
+<style>
+    *{
+		padding:0px;
+		margin:0px;
+	}
+	div{
+		margin:100px auto;
+		width:750px;
+	}
+	div a{
+		display:block;
+		color:#F93;
+		text-align:center;
+		text-decoration:none;
+	}
+	div a:hover{
+		border-bottom:5px solid red;
+	}
+	div li{
+		width:150px;
+		height:50px;
+		line-height:50px;
+		background: linear-gradient(to bottom,white,black);
+		list-style-type:none;
+		float:left;
+	}
+	div li > ul{
+		display:none;
+		}
+    div li:hover{
+		border-bottom:5px solid red;
+	}
+	div li:hover > ul{
+		display:block;
+	}
+	div ul ul ul{
+		position:relative;
+		left:100%;
+		top:-100%;
+	}
+	
+	
+	
+</style>
+<div>
+   <ul>
+      <li><a href="#">菜单一</a>
+         <ul>
+             <li><a href="#">二级菜单一</a>
+                 
+             </li>
+             <li><a href="#">二级菜单二</a></li>
+             <li><a href="#">二级菜单三</a></li>
+             <li><a href="#">二级菜单四</a></li>
+             <li><a href="#">二级菜单五</a>
+                <ul>
+                   <li><a href="#">三级菜单一</a></li>
+                   <li><a href="#">三级菜单二</a></li>
+                   <li><a href="#">三级菜单三</a></li>
+                   <li><a href="#">三级菜单四</a></li>
+                   <li><a href="#">三级菜单五</a></li>
+                 </ul>
+             </li>
+         </ul>
+      </li>
+      <li><a href="#">菜单二</a></li>
+      <li><a href="#">菜单三</a></li>
+      <li><a href="#">菜单四</a></li>
+      <li><a href="#">菜单五</a></li>
+   </ul>
+</div>
+<body>
+</body>
+</html>
